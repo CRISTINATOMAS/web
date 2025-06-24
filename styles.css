@@ -1,0 +1,67 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding-top: 100px;
+    /* para compensar el navbar fijo */
+    min-height: 100vh;
+}
+
+.inicio-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bg-image {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Estilo para que el header no quede pegado */
+.inicio-header {
+    background-color: #f8f9fa;
+}
+
+.carousel-item img {
+    max-height: 800px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+
+.imagen-hover {
+    transition: transform 0.3s ease;
+    /* Animación suave */
+}
+
+.imagen-hover:hover {
+    transform: scale(1.1);
+    /* Agranda un 10% */
+}
+
+.caja-hover {
+
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+
+}
+
+.caja-hover:hover {
+    background-color: #9e5d5d1e;
+    /* rojo brillante */
+}
+
+.navbar-nav .nav-item {
+    transition: transform 0.3s ease;
+}
+
+.navbar-nav .nav-item:hover {
+    transform: scale(1.25);
+    background-color: #55030e48;
+    border-radius: 10%;
+}
